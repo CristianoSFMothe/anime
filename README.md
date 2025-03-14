@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Anime Topia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Anime Topia is a page dedicated to QAs and developers who are anime fans. You can watch trailers of top-ranked anime and search for your favorites. The project is built with **ReactJs** and consumes the public [Jikan API](https://docs.api.jikan.moe/).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Technologies Used
+- **ReactJS** 
+- **JavaScript**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 Project Link:
+- [Anime Topia](https://anime-topia.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧑‍💻 How to Contribute
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Fork the repository**:  
+   Click the 'Fork' button at the top-right corner of this repository to create your own copy.
 
-### `npm run build`
+2. **Clone your fork**:  
+   Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/anime.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Create a new branch**:  
+   Create a branch to work on your changes:
+   ```bash
+   git checkout -b feature-name
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Make your changes**:  
+   Make the necessary changes to the code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Commit your changes**:  
+   Add, commit, and push your changes:
+   ```bash
+   git add .
+   git commit -m "Add new feature"
+   git push origin feature-name
+   ```
 
-### `npm run eject`
+6. **Create a pull request**:  
+   Go to your fork on GitHub and click on "New Pull Request".
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+├── Components/
+│   ├── Airing/
+│   │   ├── Airing.page.js
+│   │   └── Airing.page.style.js
+│   ├── AnimeItem/
+│   │   ├── AnimeItem.page.js
+│   │   └── AnimeItem.page.style.js
+│   ├── Gallery/
+│   │   ├── Gallery.page.js
+│   │   └── Gallery.page.style.js
+│   ├── HomePage/
+│   │   ├── HomePage.page.js
+│   │   └── HomePage.page.style.js
+│   ├── Popular/
+│   │   ├── Popular.page.js
+│   │   └── Popular.page.style.js
+│   ├── Sidebar/
+│   │   ├── Sidebar.js
+│   │   └── Sidebar.style.js
+│   ├── Upcoming/
+│   │   ├── Upcoming.page.js
+│   │   └── Upcoming.page.style.js
+├── context/
+│   └── global.js
+├── App.js
+├── index.js
+└── theme/
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 💡 Future Updates
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- User login and registration
+- Ability to favorite anime
+- Create shareable links
+- Add comment sections
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🤝 Collaboration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is **public** and open for **collaboration**. If you're a developer or QA interested in contributing, feel free to submit pull requests or open issues!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 👨‍💻 My Portfolio:
 
-### Making a Progressive Web App
+- [Cristiano SFMothe - Portfolio](https://portfolio-qa-cristiano.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### 🔗 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the **MIT License**.
