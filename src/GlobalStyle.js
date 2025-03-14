@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import { theme } from './theme';
 
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
@@ -13,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        color: ${theme.background};
+        color: #6c7983;
         font-size: 1.2rem;
         &::-webkit-scrollbar{
             width: 7px;
@@ -23,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
             border-radius: 10px;
         }
         &::-webkit-scrollbar-track{
-            background-color: ${theme.background};
+            background-color: #EDEDED;
         }
     }
 `;
